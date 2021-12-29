@@ -1,0 +1,44 @@
+body {
+	background-color: #eee;
+
+}
+
+
+#message {
+	width: 400px;
+	background-color: #ddaaaa;
+	padding: 20px;
+	padding: 20px;
+	font-family: calibri;
+	font-size: 18px;
+	color: #444;
+	margin: 0 auto;
+	text-align: center;
+	border: 1px solid #ff7777;
+	font-weight: bold;
+	opacity: 0;
+
+
+	max-height: 270px;
+	overflow: hidden;
+
+
+	/*set tranisitions up*/
+
+	transition: max-height 0.7s;
+}
+
+#message.show {
+	opacity: 1;
+	transition: max-height 0.7s;
+
+}
+
+#colour-changer {
+	width: 200px;
+	height: 100px;
+	
+
+}	
+
+

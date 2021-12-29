@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- External Google font Api - Roboto -->            
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap" rel="stylesheet">
+
+  <!-- css styles -->
+  <link rel="stylesheet" href="styles.css">
+
+  <title>Uni To-Do App</title>
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <h1>Edge Hill University</h1>
+      <input id="value" type="text" placeholder="Enter new task here...">
+      <button id="add"><i class="fas fa-plus"></i></button>
+    </header>
+
+    <div class="todo-container">
+      <ul id="to">
+        <li>
+          New list item
+          <div class="buttons">
+            <img src="img/remove.png" id="delete" alt="Rubbish bin icon">
+            <hr class="vertical-rule">
+            <img src="img/success.png" id="complete" alt="Complete task icon">
+          </div>   
+        </li>
+      </ul>
+    </div>
+    
+
+     
+
+      <!-- <div class="to-do" id="todo">
+        <p id="toDo-description">Complete CW2</p>
+        <img src="img/remove.png" id="delete" alt="Rubbish bin icon">
+        <hr class="vertical-rule">
+        <img src="img/success.png" id="complete" alt="Complete task icon">
+      </div>
+      <div class="to-do">
+        <p>Finish this weeks task and then delegte to the rest of the team</p>
+        <img src="img/remove.png" alt="Rubbish bin icon">
+        <hr class="vertical-rule">
+        <img src="img/success.png" alt="Complete task icon">
+      </div>
+      <div class="to-do">
+        <p>Revise for upcoming exam</p>
+        <img src="img/remove.png" alt="Rubbish bin icon">
+        <hr class="vertical-rule">
+        <img src="img/success.png" alt="Complete task icon">
+      </div>
+      <hr> --> 
+
+      <!-- completed to do -->
+      <!-- <div class="to-do" id="completed">
+        <del><p>Finish this weeks task and then delegte to the rest of the team</p></del>    
+      </div>
+      <div class="to-do" id="completed">
+        <del><p>Finish this weeks task and then delegte to the rest of the team</p></del>    
+      </div>
+      <div class="to-do" id="completed">
+        <del><p>Finish this weeks task and then delegte to the rest of the team</p></del>    
+      </div>
+       -->
+    </ul>
+  </div>
+
+  <!-- Javascript -->
+  <script src="js/scripts.js"></script>
+</body>
+</html>
